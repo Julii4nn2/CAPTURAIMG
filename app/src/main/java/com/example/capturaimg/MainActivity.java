@@ -60,5 +60,6 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         Bitmap bitmap = (Bitmap) data.getExtras().get("data");
         imagen1.setImageBitmap(bitmap);
+        int i;
     }
 }
