@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView imagen1;
     private EditText et1;
+    int pruebita;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
